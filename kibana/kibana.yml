@@ -61,4 +61,4 @@ bundled_plugin_ids:
  - plugins/settings/index
  - plugins/table_vis/index
  - plugins/vis_types/index
-
+ - plugins/visualize/index

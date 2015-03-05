@@ -34,6 +34,4 @@ output {
  More info on this logformat here  http://logstash.net/docs/1.4.2/configuration
 
 # Issues/Limitations
-- [ ] Kibana 4.0.0 isn't rendering graphs?
- - https://github.com/elasticsearch/kibana/issues/3261
 - [ ] No data volumes/persistance, keeping it simple
