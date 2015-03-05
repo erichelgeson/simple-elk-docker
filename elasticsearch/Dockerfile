@@ -6,6 +6,5 @@ RUN curl -LO "http://download.oracle.com/otn-pub/java/jdk/$JDK_VERSION-$JDK_BUIL
 ENV JAVA_HOME /usr/java/default
 
 RUN wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.4.zip && unzip elasticsearch-1.4.4.zip && rm elasticsearch-1.4.4.zip
-RUN ls /elasticsearch-1.4.4/bin/
 RUN chmod +x /elasticsearch-1.4.4/bin/elasticsearch
 CMD /elasticsearch-1.4.4/bin/elasticsearch
